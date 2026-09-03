@@ -15,7 +15,7 @@ class AgnosticCli < Formula
   end
 
   test do
-    assert_match "agnostic workspace status", shell_output("#{bin}/agnostic help")
+    assert_match "agnostic workspace status", shell_output("#{bin}/agnostic --help")
 
     package_json = libexec/"lib/node_modules/@nsp-labs/agnostic-cli/package.json"
     assert_match "\"version\": \"#{version}\"", package_json.read
