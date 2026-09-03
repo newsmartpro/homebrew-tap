@@ -8,8 +8,6 @@ class AgnosticCli < Formula
   depends_on "node"
 
   def install
-    # The SDK is first-party and ships in the same release as the CLI, so it is
-    # exempt from the npm release-age gate that std_npm_args enables.
     system "npm", "install", *std_npm_args, "--min-release-age-exclude=@nsp-labs/agnostic-sdk"
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
