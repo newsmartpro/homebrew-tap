@@ -1,8 +1,8 @@
 class AgnosticCli < Formula
   desc "Official Agnostic CLI for backend-mediated local workspace development"
   homepage "https://www.npmjs.com/package/@nsp-labs/agnostic-cli"
-  url "https://registry.npmjs.org/@nsp-labs/agnostic-cli/-/agnostic-cli-0.16.1.tgz"
-  sha256 "333b9ad194529264a09b04e1debc7f4777424c4f0306790d78041bcf961fd177"
+  url "https://registry.npmjs.org/@nsp-labs/agnostic-cli/-/agnostic-cli-0.16.2.tgz"
+  sha256 "75a8cbf704cb117278ed522a077d32dfdf658b19347a616b9f4d2a72663892db"
   license "ISC"
 
   depends_on "node"
